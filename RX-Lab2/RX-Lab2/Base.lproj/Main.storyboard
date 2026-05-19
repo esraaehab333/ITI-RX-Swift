@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RX_Lab2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7v3-Xa-aPs">
+                                <rect key="frame" x="25" y="232" width="343" height="132"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r30-H0-WQb">
+                                <rect key="frame" x="239" y="409" width="80" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="throttle"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e91-Zb-YKq">
+                                <rect key="frame" x="56" y="409" width="101" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="debounce"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7v3-Xa-aPs" secondAttribute="trailing" constant="25" id="2Sj-K4-EVy"/>
+                            <constraint firstItem="7v3-Xa-aPs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="41m-SL-S5p"/>
+                            <constraint firstItem="e91-Zb-YKq" firstAttribute="top" secondItem="7v3-Xa-aPs" secondAttribute="bottom" constant="45" id="HeQ-0a-ND4"/>
+                            <constraint firstItem="r30-H0-WQb" firstAttribute="top" secondItem="7v3-Xa-aPs" secondAttribute="bottom" constant="45" id="Pfo-Xi-sGs"/>
+                            <constraint firstItem="7v3-Xa-aPs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="173" id="eUs-3A-ZFS"/>
+                            <constraint firstItem="e91-Zb-YKq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="gVU-We-Dlk"/>
+                            <constraint firstItem="r30-H0-WQb" firstAttribute="leading" secondItem="e91-Zb-YKq" secondAttribute="trailing" constant="82" id="knd-o5-AeY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r30-H0-WQb" secondAttribute="trailing" constant="74" id="rnd-5D-Zrz"/>
+                            <constraint firstItem="7v3-Xa-aPs" firstAttribute="leading" secondItem="e91-Zb-YKq" secondAttribute="trailing" constant="-132" id="t3T-M4-oM1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7v3-Xa-aPs" secondAttribute="bottom" constant="454" id="uJJ-oB-7g4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="debounceBtn" destination="e91-Zb-YKq" id="s6F-y6-eC4"/>
+                        <outlet property="resultLabel" destination="7v3-Xa-aPs" id="6CQ-Z1-gOO"/>
+                        <outlet property="throttleBtn" destination="r30-H0-WQb" id="7tJ-Af-ZZd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-60.305343511450381" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
