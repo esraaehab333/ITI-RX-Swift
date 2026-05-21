@@ -9,7 +9,7 @@ class ViewController: UIViewController {
     private let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
-        let observable1: Observable<Int> = Observable<Int>.just(1)
+      /*  let observable1: Observable<Int> = Observable<Int>.just(1)
         let observable2: Observable<String> = Observable<String>.of("Esraa", "Mona", "Hend", "Tasneem")[[],[]]
         let observable3: Observable<String> = Observable<String>.from(["Esraa", "Mona", "Hend", "Tasneem"])//flat
         let observable4: Observable<String> = Observable.create {
@@ -41,6 +41,6 @@ class ViewController: UIViewController {
                 self.statusLabel.text = isOn ? "On" : "Off"
             },onCompleted: {
                 print("switch complete")
-            }).disposed(by: disposeBag)
+            }).disposed(by: disposeBag)*/
     }
 }

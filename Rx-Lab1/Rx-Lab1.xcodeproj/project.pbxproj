@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2610B92FBDCAF00052EDB2 /* NameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2610B82FBDCAF00052EDB2 /* NameTableViewCell.swift */; };
+		BA2610BB2FBDCB8B0052EDB2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2610BA2FBDCB8B0052EDB2 /* SecondViewController.swift */; };
 		C8722E622FBB13A8000254F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8722E612FBB13A8000254F2 /* AppDelegate.swift */; };
 		C8722E642FBB13A8000254F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8722E632FBB13A8000254F2 /* SceneDelegate.swift */; };
 		C8722E662FBB13A8000254F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8722E652FBB13A8000254F2 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2610B82FBDCAF00052EDB2 /* NameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTableViewCell.swift; sourceTree = "<group>"; };
+		BA2610BA2FBDCB8B0052EDB2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C8722E5E2FBB13A8000254F2 /* Rx-Lab1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rx-Lab1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8722E612FBB13A8000254F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8722E632FBB13A8000254F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				C8722E6A2FBB13A9000254F2 /* Assets.xcassets */,
 				C8722E6C2FBB13A9000254F2 /* LaunchScreen.storyboard */,
 				C8722E6F2FBB13A9000254F2 /* Info.plist */,
+				BA2610B82FBDCAF00052EDB2 /* NameTableViewCell.swift */,
+				BA2610BA2FBDCB8B0052EDB2 /* SecondViewController.swift */,
 			);
 			path = "Rx-Lab1";
 			sourceTree = "<group>";
@@ -150,6 +156,8 @@
 			files = (
 				C8722E662FBB13A8000254F2 /* ViewController.swift in Sources */,
 				C8722E622FBB13A8000254F2 /* AppDelegate.swift in Sources */,
+				BA2610B92FBDCAF00052EDB2 /* NameTableViewCell.swift in Sources */,
+				BA2610BB2FBDCB8B0052EDB2 /* SecondViewController.swift in Sources */,
 				C8722E642FBB13A8000254F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
